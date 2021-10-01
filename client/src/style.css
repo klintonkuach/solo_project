@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Cabin', sans-serif;
+}
+
+
+.container {
+  max-width: 1024px;
+  margin: auto;
+  border-radius: 20px;
+  
+}
+
+
+
+.titlehead {
+  font-size: 3em;
+  font-weight: bold;
+  color: white;
+  font-family: 'Cabin', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: lightgray;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin: 5px 15px 15px 0;
+}
+
+.newentry {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  padding: 5px 20px;
+  font-size: 1.5em;
+  background-color: #2D88FF;
+  border-radius: 0.4em;
+}
+
+#site-main {
+  margin: 6em 0;
+  display: grid;
+
+}
+
+#imgactions {
+  display: flex;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: lightgray;
+  border-radius: 1em;
+}
+
+.newentrytable {
+  background-color: lightgray;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+#tableheader {
+  background-color: lightskyblue;
+}
+
+th {
+  padding: 0.9em;
+  font-family: 'Cabin', sans-serif;
+  font-size: 1.3em;
+}
+
+
+td {
+  padding: 0.9em;
+  text-align: center;
+}
+
+tr.entrybtn {
+  padding: 12px 0 2px 0;
+  display: flex;
+  justify-content: center;
+}
+
+#entrybutton {
+  height: 25px;
+  width: 58px;
+  border-radius: 8px;
+}
+
+input#entrybutton:hover {
+  cursor: pointer;
+}
+
+.trashcan:hover {
+  cursor: pointer;
+}
